@@ -1,0 +1,210 @@
+div{
+    box-sizing: border-box;
+   border-color: black;
+    border-width: 1px;
+    border-style: solid; 
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif; 
+   
+}
+
+.page-bg{
+     background: url(1.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+a{
+    text-decoration: none;
+}
+h1,h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 10px;
+    
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin:  0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn1{
+    color: #fff;
+    
+    margin-right: 25px;
+    border-radius: 25px;
+    border-style: solid;
+    background: orange;
+    padding: 5px 14px;
+}
+.btn2{
+
+    color: #fff;
+    border-radius: 25px;
+    border-style: solid;
+    background: orange;
+    padding: 5px 14px;
+
+}
+
+.center{
+    text-align: center;
+}
+.text-position{
+    width: 50%;
+
+}
+.down{
+    padding-top: 18%;
+    padding-left: 5%;
+   
+    text-align: center;
+}
+
+.image-position{
+    width: 30%;
+    position: relative;
+    bottom: 250px;
+    left: 250px;
+}
+
+#page3-background{
+    padding: 0px 0 70px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+#page3-background a{
+    color: #fff;
+    font-weight: 700px;
+    font-size: 15px;
+    background: darkgrey;
+    padding: 5px 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 500px;
+    transition: background 0.5s;
+}
+#page3-background h3{
+    color: black;
+}
+
+#page3-background a:hover{
+    background-color: darkgoldenrod;
+}
+.testimonial{
+    padding-top: 25px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform .75s;
+}
+.testimonial .col-3 img{
+
+    margin-top: 20px;
+    
+}
+.testimonial .col-3:hover{
+    background:linear-gradient(to right top, #465469, #386e81, #348786, #5b9e7a, #99ae69);
+    transform: translateY(-10px);
+ }
+
+
+
+/**
+.testimonial .col-3:hover span {
+    display: none;
+   transition: transform .75s;
+}
+
+.testimonial .col-3:hover:before{
+     transform: translateY(-10px);
+    content: "Design and Development of an Automated Smart Waste Segregation Bin for Small Scale Household and Businesses Using Internet of Things";
+   
+}
+
+**/
+
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+    }
+
+
+.testimonial h1{
+    color: black;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.row{
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.col-9
+{  
+    flex-basis: 25%;
+    transition: transform 1.0s ;
+    
+}
+
+.col-9:hover{
+    transform: translateY(-10px);
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+    }
+
+/** header**/
+
+#top-header p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+#top-header {
+    background: #080808;
+    padding: 3px 0;
+}
+
+/** Bottom Footer**/
+a.terms-link {
+    float: right;
+    color: #fff;
+    font-size: 12px;
+}
+
+#bottom-footer p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+#bottom-footer {
+    background: #080808;
+    padding: 10px 0;
